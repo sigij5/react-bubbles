@@ -36,10 +36,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Describe how web servers work.
 
-  Web servers 
+  A physical web server is connected to the internet, and receives data that will be loaded in order to be hosted.  The web server software program tells the server what to do with the data it receives.
 
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
 
+  Both Put and Delete methods can be mapped the the 'U' or 'Update, and 'D' or 'Delete' within the CRUD acronym we use when interfacing with APIs
 
 ## Project Set Up
 

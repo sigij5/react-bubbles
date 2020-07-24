@@ -22,7 +22,7 @@ const ColorList = ({ colors, updateColors, getColors}) => {
     e.preventDefault();
     axiosWithAuth()
       .put(`http://localhost:5000/api/colors/${colorToEdit.id}`, colorToEdit)
-        .then(res => {
+        .then(() => {
           getColors()
           setEditing(false)
         })
